@@ -5,7 +5,7 @@ pipeline {
         DOCKER_IMAGE_NAME = "chaitalideshmukh/train-schedule"
     }
 tools {
-        Gradle 'grandle1'
+        gradle 'Gradle 6.3'
     }
     stages {
         stage('Build') {
