@@ -4,6 +4,9 @@ pipeline {
         //be sure to replace "willbla" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "chaitalideshmukh/train-schedule"
     }
+tools {
+        Gradle 'grandle1'
+    }
     stages {
         stage('Build') {
             steps {
